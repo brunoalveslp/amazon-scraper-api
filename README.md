@@ -14,16 +14,16 @@ Api simples que imita o Scraper da amazon
 ## Procurar Produtos
 
 * No navegador abra a api 'http://localhost:5000/'
-* 'http://localhost:5000/search/`nome do produto`'
+* 'http://localhost:5000/search/' + nome do produto
 
 ## Detalhes do Produto
 
-* 'http://localhost:5000/product/`id do produto`'
+* 'http://localhost:5000/product/' + id do produto
 
 ## Reviews do Produto
 
-* 'http://localhost:5000/product/`id do produto`/reviews'
+* 'http://localhost:5000/product/' + id do produto +'/reviews'
 
 ## Ofertas do Mesmo Produto
 
-* 'http://localhost:5000/product/`id do produto`/offers'
+* 'http://localhost:5000/product/' + id do produto +'/offers'
